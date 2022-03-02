@@ -1,0 +1,23 @@
+ * Write a program that prompts the user for their age and determine whether the user can drink alcohol or not.
+ */
+package week4;
+import java.util.Scanner;
+
+
+public class Program4 
+{
+	public static void main(String[] args) 
+	{
+		int userAge;
+		System.out.println("How old are you?");
+		Scanner scnr = new Scanner(System.in); 
+		userAge = scnr.nextInt();
+		
+		if ((userAge >= 21)) {
+		System.out.println("You can drink alcohol!");
+		}
+		else {
+		System.out.println("You cannot drink alcohol!");
+		}
+	}
+}
